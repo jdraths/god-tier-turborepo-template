@@ -19,6 +19,10 @@ For instance, let's say you have an api route in `apps/web` that returns a list 
 2. All core logic in packages/core can be imported as needed into any other apps or packages that need it.
 3. It is trivial to write isolated, functional tests for your core logic, completely separate from their implementations in nextjs, express or any other environment
 
+#### `packages/scripts`
+
+A simple package to run ad-hoc scripts
+
 ### VS Code
 
 Sensible [vs code settings](.vscode/settings.json) that enable automatic formatting on save if you have [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extensions installed
@@ -33,4 +37,6 @@ Good, suitable defaults
 
 Keep your package versions with [default groups](.github/workflows/dependabot.yml) for packages like "turbo" and "@turbo/\*"
 
-###
+### Vitest
+
+### Tailwind + Shadcn
