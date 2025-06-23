@@ -1,0 +1,61 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    open-pull-requests-limit: 20
+    schedule:
+      interval: "daily"
+      time: "04:00"
+    groups:
+      # Specify a name for the group, which will be used in pull request titles
+      # and branch names
+      luxon:
+        applies-to: version-updates
+        patterns:
+          - "luxon"
+          - "@types/luxon"
+      prisma:
+        applies-to: version-updates
+        patterns:
+          - "prisma"
+          - "@prisma/*"
+      react:
+        applies-to: version-updates
+        patterns:
+          - "react"
+          - "@types/react"
+          - "react-dom"
+          - "@types/react-dom"
+      react-query:
+        applies-to: version-updates
+        patterns:
+          - "@tanstack/react-query*"
+          - "@tanstack/eslint-plugin-query"
+      tailwind:
+        applies-to: version-updates
+        patterns:
+          - "tailwindcss"
+          - "eslint-plugin-tailwindcss"
+          - "prettier-plugin-tailwindcss"
+      turbo:
+        applies-to: version-updates
+        patterns:
+          - "turbo"
+          - "@turbo/*"
+      typescript-eslint:
+        applies-to: version-updates
+        patterns:
+          - "@typescript-eslint/*"
+      vite:
+        applies-to: version-updates
+        patterns:
+          - "vite"
+          - "@vitejs/*"
+          - "vitest*"
+          - "@vitest/*"
+          - "vite-node"

@@ -1,0 +1,25 @@
+{
+  "name": "@repo/scripts",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "generate:script": "turbo gen script-gen",
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@turbo/gen": "^2.5.0",
+    "@types/luxon": "^3.6.1",
+    "@types/node": "^22.15.3",
+    "eslint": "^9.29.0",
+    "typescript": "^5.8.2",
+    "vite-node": "^3.1.4"
+  },
+  "dependencies": {
+    "@repo/core": "workspace:*",
+    "axios": "^1.8.4",
+    "luxon": "^3.6.1"
+  }
+}
