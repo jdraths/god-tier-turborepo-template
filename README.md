@@ -7,6 +7,10 @@ This template captures 2+ years of lessons-learned from production turborepo pro
 
 ## What's in the box
 
+### Claude Code
+
+includes [claude.md](./claude.md) explaining the repo's organization and includes a claude code github action ([installed per here](https://github.com/anthropics/claude-code-action?tab=readme-ov-file#manual-setup-direct-api))
+
 ### Thoughtful code patterns
 
 #### `packages/core`
