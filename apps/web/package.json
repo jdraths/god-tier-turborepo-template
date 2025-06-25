@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@repo/core": "workspace:*",
+    "@repo/db": "workspace:*",
     "@repo/ui": "workspace:*",
     "@tailwindcss/typography": "^0.5.16",
     "lucide-react": "^0.523.0",
