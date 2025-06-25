@@ -47,4 +47,4 @@ Keep your package versions with [default groups](.github/workflows/dependabot.ym
 
 Shadcn installed per [here](https://ui.shadcn.com/docs/installation/manual)
 
-**IMPORTANT**: we still use Tailwind 3, as Tailwind 4 still has a few unfortunate issues with [@apply](https://github.com/tailwindlabs/tailwindcss/discussions/16429) and [no safelist](https://github.com/tailwindlabs/tailwindcss/discussions/15291)
+from within an app, you can simply `pnpm dlx shadcn@canary add alert` and it will add the component in the right place; either `packages/ui` or `apps/web`
