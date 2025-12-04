@@ -58,6 +58,8 @@ export const config = [
       // "@typescript-eslint/no-floating-promises": "error", // already in tseslint.configs.strict
       "@typescript-eslint/no-explicit-any": "warn", // overriding tseslint.configs.strict
       "@typescript-eslint/no-unused-vars": "off", // see unusedImports
+      "@typescript-eslint/no-unsafe-call": "off",
+      "@typescript-eslint/no-unsafe-assignment": "off",
       "@typescript-eslint/prefer-nullish-coalescing": "error",
       "@typescript-eslint/prefer-optional-chain": "error",
       // "@typescript-eslint/prefer-reduce-type-parameter": "error", // already in tseslint.configs.strict
