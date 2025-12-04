@@ -5,7 +5,16 @@
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "generate:script": "turbo gen script-gen",
-    "check-types": "tsc --noEmit"
+    "check-types": "tsc --noEmit",
+    "do": "dotenv -e ../../apps/web/.env.local vite-node"
+  },
+  "dependencies": {
+    "@repo/core": "workspace:*",
+    "@repo/db": "workspace:*",
+    "axios": "^1.8.4",
+    "drizzle-orm": "^0.44.7",
+    "luxon": "^3.6.1",
+    "openai": "^6.9.0"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
@@ -13,13 +22,9 @@
     "@turbo/gen": "^2.5.0",
     "@types/luxon": "^3.6.1",
     "@types/node": "^22.15.3",
+    "dotenv-cli": "^8.0.0",
     "eslint": "^9.39.1",
     "typescript": "^5.9.3",
     "vite-node": "^3.1.4"
-  },
-  "dependencies": {
-    "@repo/core": "workspace:*",
-    "axios": "^1.8.4",
-    "luxon": "^3.6.1"
   }
 }
