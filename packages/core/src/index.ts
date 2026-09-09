@@ -1,7 +1,7 @@
-import { prisma, User } from "@repo/db";
+import { db, usersTable } from "@repo/db";
 
 export const runPromise = async () => {
-  const user: User | null = await prisma.user.findFirst();
+  const _user = await db.select().from(usersTable).limit(1);
   const awaited = await Promise.resolve(1);
   return awaited;
 };
