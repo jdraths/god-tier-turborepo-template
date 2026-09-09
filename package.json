@@ -16,7 +16,7 @@
     "prettier": "^3.9.6",
     "syncpack": "^13.0.4",
     "turbo": "^2.10.12",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.3"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
