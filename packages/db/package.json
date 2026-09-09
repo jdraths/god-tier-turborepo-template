@@ -12,7 +12,7 @@
     "dz:push": "dotenv -e ../../apps/web/.env.local drizzle-kit push --config=drizzle.config.ts"
   },
   "dependencies": {
-    "drizzle-orm": "^0.44.7",
+    "drizzle-orm": "^0.45.2",
     "pg": "^8.23.0"
   },
   "devDependencies": {
