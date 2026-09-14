@@ -18,8 +18,8 @@
     "lucide-react": "^0.577.0",
     "next": "^15.3.9",
     "next-themes": "^0.4.6",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
@@ -27,8 +27,8 @@
     "@repo/typescript-config": "workspace:*",
     "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^22.15.3",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.7",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "eslint": "^9.39.5",
     "postcss": "^8.5.28",
     "tailwindcss": "^4.3.3",
