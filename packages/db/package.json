@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "drizzle-orm": "^0.44.7",
-    "pg": "^8.23.0"
+    "pg": "^8.23.1"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
